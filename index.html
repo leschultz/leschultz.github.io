@@ -1,88 +1,306 @@
 <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lane Enrique Schultz</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <header id="header">
+        <nav>
+          <div class="container">
+            <div class="logo">
+              <img src="./img/logo.png" alt="" />
+            </div>
 
-<html>
+            <div class="links">
+              <ul>
+                <li>
+                  <a href="#header">Home</a>
+                </li>
+                <li>
+                  <a href="#Education">Education</a>
+                </li>
+                <li>
+                  <a href="#about">About</a>
+                </li>
+                <li>
+                  <a href="#contact">Contact</a>
+                </li>
+                <li>
+                  <a href="#files" class="active">Files</a>
+                </li>
+              </ul>
+            </div>
 
-<head>
-    <title>
-        Lane Enrique Schultz
-    </title>
-    <link rel="stylesheet" href="stylesheet.css">
-</head>
+            <div class="hamburger-menu">
+              <div class="bar"></div>
+            </div>
+          </div>
+        </nav>
 
-    <body>
-        <h1>
-            Lane Enrique Schultz
-        </h1>
-        
-        <img src="./images/Graduation.jpg" alt="My graduation photo from Fort Lewis College (FLC)">
-        
-        <h2>
-            Undergraduate Education
-        </h2>
-        <ul>
-            <li>
-                School: <a href="https://www.fortlewis.edu/academics/schools-departments/departments/physics-engineering-department/physics-engineering-home">Fort Lewis College</a>
-            </li>
-            <li>
-                Bachelors: Science in Engineering
-            </li>
-            <li>
-                Concentration: Electro/Mechanical
-            </li>
-            <li>
-                Minor: Mathematics
-            </li>
-        </ul>
-        
-	<h2>
-	    Graduate Education
-	</h2>
-        <ul>
-            <li>
-                School: <a href="https://www.engr.wisc.edu/department/materials-science-engineering/">University of Wisconsin-Madison</a>
-            </li>
-            <li>
-                Master of Science: Materials Science and Engineering
-            </li>
-	    <li>
-		PhD (ongoing): Materials Science and Engineering
-	    </li>
-            <li>
-                Distributed Minor: Machine Learning
-            </li>
-        </ul>
+        <div class="header-content">
+          <div class="container grid-2">
+            <div class="column-1">
+              <h1 class="header-title">Lane Enrique Schultz</h1>
+              <p class="text">
+               
+              </p>
+              <a href="files/Schultz_Lane_Resume.pdf" class="btn">Download CV</a>
+            </div>
 
-        <h2>Contact</h2>
-        <ul>
-            <li>
-                <a href="mailto:laneenriqueschultz@gmail.com">
-                    Send Me an Email
+            <div class="column-2 image">
+              <img
+                src="./img/shapes/points2.png"
+                class="points points2"
+                alt=""
+              />
+              <img src="./img/lane.png" class="img-element z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </header>
+
+      <section class="Education section" id="Education">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title">Education</h3>
+          </div>
+
+          <div class="cards">
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points1 points-sq"
+                alt=""
+              />
+              <div class="card" data-card="UNDERGRADUATE">
+                <div class="card-content z-index">
+                  <img src="./img/undergraduate-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Undergraduate</h3>
+                  <p class="text">
+                    School: <a href="https://www.fortlewis.edu/academics/schools-departments/departments/physics-engineering-department/physics-engineering-home"> Lewis College</a> </p>
+                    <p><b>Bachelor:</b> Science in Engineering</p>
+                    <p><b>Concentration:</b> Electro/Mechanical</p>
+                    <p><b>Minor:</b> Mathematics</p>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <div class="card" data-card="Graduate">
+                <div class="card-content z-index">
+                  <img src="./img/graduate-icon.png" class="icon" alt="" />
+                  <h3 class="title-sm">Graduate</h3>
+                  <p class="text">
+                    School: <a href="https://engineering.wisc.edu/departments/materials-science-engineering/">University of Wisconsin-Madison</a></p>
+                   <p><b>Master of Science:</b> Materials Science and Engineering</p>
+                    <p><b>PhD (ongoing):</b>Materials Science and Engineering</p>
+                    <p><b>Distributed Minor:</b> Machine Learning </p>
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <div class="card-wrap">
+              <img
+                src="./img/shapes/points3.png"
+                class="points points2 points-sq"
+                alt=""
+              />
+
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about section" id="about">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="Who Am I">About me</h3>
+          </div>
+
+          <div class="section-body grid-2">
+            <div class="column-1">
+              <h3 class="title-sm">Hello, I'm</h3>
+              <p class="text">
+                Teddy tell me about you hehehe so that I can add some content here. HEHEHE thanks
+              </p>
+            </div>
+
+            <div class="column-2 image">
+              <img src="./img/shapes/points4.png" class="points" alt="" />
+              <img src="./img/about.png" class="z-index" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="files section" id="files">
+        <div class="background-bg">
+        </div>
+
+        <div class="container">
+          <div class="section-header">
+            <h3 class="title" data-title="MY">Files</h3>
+          </div>
+
+          <div class="section-body">
+            <div class="filter">
+              <p class="text">
+                <a href="files/Schultz_Lane_Resume.pdf" class="btn">Resume</a><p class="text"></p>
+              <p>
+              <a href="files/Schultz_Lane_Fort_Lewis_Transcript.pdf" class="btn">Academic Transcript Fort Lewis College</a><p class="text">
+              </p>
+              <a href="files/Schultz_Lane_UW-Madison_Transcript.pdf" class="btn">Academic Transcript University of Wisconsin-Madison</a>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="container">
+          <div class="contact-box">
+            <div class="contact-info">
+              <h3 class="title">Get in touch</h3>
+              <p class="text">
+                teddy you can put some text in here !!!!!!!!!!!!!!!1
+              </p>
+              <div class="information-wrap">
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-map-marker-alt"></i>
+                  </div>
+                  <p class="info-text">your location </p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-paper-plane"></i>
+                  </div>
+                  <p class="info-text">your email</p>
+                </div>
+
+                <div class="information">
+                  <div class="contact-icon">
+                    <i class="fas fa-phone-alt"></i>
+                  </div>
+                  <p class="info-text">your phone number</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="contact-form">
+              <h3 class="title">Contact me</h3>
+              <div class="row">
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="First Name"
+                />
+                <input
+                  type="text"
+                  class="contact-input"
+                  placeholder="Last Name"
+                />
+              </div>
+
+              <div class="row">
+                <input type="text" class="contact-input" placeholder="Phone" />
+                <input type="email" class="contact-input" placeholder="Email" />
+              </div>
+
+              <div class="row">
+                <textarea
+                  name="message"
+                  class="contact-input textarea"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <a href="#" class="btn">Send</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="grid-4">
+          <div class="grid-4-col footer-about">
+            <h3 class="title-sm">About</h3>
+            <p class="text">
+            PUT SOMETHING IN HERE!!!!!!!!!
+            </p>
+          </div>
+
+          <div class="grid-4-col footer-links">
+            <h3 class="title-sm">Links</h3>
+            <ul>
+              <li>
+                <a href="#Education">Education</a>
+              </li>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+
+        </div>
+
+        <div class="bottom-footer">
+          <div class="copyright">
+            <p class="text">
+              Copyright&copy;2022 All rights reserved | Made by 
+              <span style="color: white;">JK</span>
+            </p>
+          </div>
+
+          <div class="followme-wrap">
+            <div class="followme">
+              <h3>Follow me</h3>
+              <span class="footer-line"></span>
+              <div class="social-media">
+                <a href="#">
+                  <i class="fab fa-facebook-f"></i>
                 </a>
-            </li>
-            <li>
-                <a href="https://github.com/leschultz/">GitHub: leschultz</a>
-            </li>
-	 </ul>
-	<h2>Files</h2>
-	<ul>
-            <li>
-                <a href="./documents/Schultz_Lane_Resume.pdf">
-                    Resume
+                <a href="#">
+                  <i class="fab fa-twitter"></i>
                 </a>
-            </li>
-
-            <li>
-                <a href="./documents/Schultz_Lane_Fort_Lewis_Transcript.pdf">
-                    Academic Transcript Fort Lewis College
+                <a href="#">
+                  <i class="fab fa-instagram"></i>
                 </a>
-            </li>
-
-            <li>
-                <a href="./documents/Schultz_Lane_UW-Madison_Transcript.pdf">
-                    Academic Transcript University of Wisconsin-Madison
+                <a href="#">
+                  <i class="fab fa-linkedin-in"></i>
                 </a>
-            </li>
-        </ul>
-    </body>
+              </div>
+            </div>
 
+            <div class="back-btn-wrap">
+              <a href="#" class="back-btn">
+                <i class="fas fa-chevron-up"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="./js/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/app.js"></script>
+  </body>
 </html>

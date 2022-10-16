@@ -1,2 +1,0 @@
-# leschultz.github.io
-Website
