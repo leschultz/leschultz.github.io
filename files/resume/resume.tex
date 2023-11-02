@@ -1,0 +1,58 @@
+\documentclass[letter,12pt]{article}
+\usepackage[utf8]{inputenc}
+
+%====================
+% OFFICIAL PUBLIC OVERLEAF TEMPLATE
+% https://www.overleaf.com/latex/templates/data-science-tech-resume-template/zcdmpfxrzjhv
+% 
+%====================
+%
+% Resume template for data scientists, a complement to data-science-tech-cover-letter-template:
+% https://www.overleaf.com/latex/templates/data-science-tech-cover-letter-template/gbrcqktbsfxf
+%
+% Files:        resume.tex: Main file
+%               _header.tex: header code
+%               TLCresume.sty: style file containing formatting details
+%               section/objective: https://www.indeed.com/career-advice/resumes-cover-letters/resume-objective-examples
+%
+% Editor:       https://github.com/TimmyChan 
+%               https://www.linkedin.com/in/timmy-l-chan/
+%               
+% Last Updated: March 24th, 2022
+%
+%====================
+
+
+\usepackage{TLCresume}
+
+
+%====================
+% CONTACT INFORMATION
+%====================
+\def\name{Lane E. Schultz} % Name Here
+\def\phone{(806) 678-6904}
+\def\city{Madison, WI}
+\def\email{lsschultz@wisc.edu}
+\def\LinkedIn{lane-schultz-983920236} % linkedin.com/in/______
+\def\github{leschultz} % github username
+\def\role{Research Assistant} % JOB TITLE
+
+\input{header_footer}
+
+\begin{document}
+
+\input{sections/objective}
+\input{sections/education}
+\input{sections/skills}
+\input{sections/experience}
+\thispagestyle{plain}
+\input{sections/teaching}
+\input{sections/publications}
+\pagebreak
+\input{sections/presentations}
+\thispagestyle{plain}
+\input{sections/awards}
+\input{sections/interests}
+\thispagestyle{plain}
+
+\end{document}
