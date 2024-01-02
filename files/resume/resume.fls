@@ -1,9 +1,9 @@
-PWD /home/nerve/Downloads/leschultz.github.io/files/resume
+PWD /home/nerve/Desktop/leschultz.github.io/files/resume
 INPUT /etc/texmf/web2c/texmf.cnf
 INPUT /usr/share/texmf/web2c/texmf.cnf
 INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/pdftex/pdflatex.fmt
-INPUT /home/nerve/Downloads/leschultz.github.io/files/resume/resume.tex
+INPUT /home/nerve/Desktop/leschultz.github.io/files/resume/resume.tex
 OUTPUT resume.log
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texlive/texmf-dist/tex/latex/base/article.cls
