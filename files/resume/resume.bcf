@@ -2374,10 +2374,12 @@
     <bcf:citekey order="7" intorder="1">jacobs_2024</bcf:citekey>
     <bcf:citekey order="8" intorder="1">huang_2024</bcf:citekey>
     <bcf:citekey order="9" intorder="1">agrawal_2024</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">afflerbach_2022</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">afflerbach_2021</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">janqi_2020</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">schneider_2016</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">schmidt_2024</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">afflerbach_2022</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">afflerbach_2021</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">janqi_2020</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">halls_2018</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">schneider_2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

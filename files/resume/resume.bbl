@@ -484,6 +484,139 @@
       \verb 2404.09896
       \endverb
     \endentry
+    \entry{schmidt_2024}{article}{}
+      \name{author}{20}{}{%
+        {{hash=a9825f5b76b7a7796a09d962dba8754f}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Kj},
+           giveni={K\bibinitperiod}}}%
+        {{hash=b75c61a0d365a779ba8e69d79e936716}{%
+           family={Scourtas},
+           familyi={S\bibinitperiod},
+           given={Aristana},
+           giveni={A\bibinitperiod}}}%
+        {{hash=bb6ebe91f1eda97f094619be5df0a652}{%
+           family={Ward},
+           familyi={W\bibinitperiod},
+           given={Logan},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9bfd745eaa45ba698ee097528e713e29}{%
+           family={Wangen},
+           familyi={W\bibinitperiod},
+           given={Steve},
+           giveni={S\bibinitperiod}}}%
+        {{hash=20b80c17ee847a238a104bfaf7163028}{%
+           family={Schwarting},
+           familyi={S\bibinitperiod},
+           given={Marcus},
+           giveni={M\bibinitperiod}}}%
+        {{hash=84e5069cc8767a1db7393b390aa602dd}{%
+           family={Darling},
+           familyi={D\bibinitperiod},
+           given={Isaac},
+           giveni={I\bibinitperiod}}}%
+        {{hash=e54ab95ac5b85d1aae44f87871118fae}{%
+           family={Truelove},
+           familyi={T\bibinitperiod},
+           given={Ethan},
+           giveni={E\bibinitperiod}}}%
+        {{hash=abd9a172608685469584746e365e73e0}{%
+           family={Ambadkar},
+           familyi={A\bibinitperiod},
+           given={Aadit},
+           giveni={A\bibinitperiod}}}%
+        {{hash=c5498547f1109744bee2e35e09e36806}{%
+           family={Bose},
+           familyi={B\bibinitperiod},
+           given={Ribhav},
+           giveni={R\bibinitperiod}}}%
+        {{hash=820d1fafbe69ed24218b41cb83f571b3}{%
+           family={Katok},
+           familyi={K\bibinitperiod},
+           given={Zoa},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=cb569a7e7e2bab41cd7f779a8af34db5}{%
+           family={Wei},
+           familyi={W\bibinitperiod},
+           given={Jingrui},
+           giveni={J\bibinitperiod}}}%
+        {{hash=28e10c04cf69cdecc9efbbebd65e4761}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Xiangguo},
+           giveni={X\bibinitperiod}}}%
+        {{hash=b0d6cf07d11ed51e5613f26384aa4619}{%
+           family={Jacobs},
+           familyi={J\bibinitperiod},
+           given={Ryan},
+           giveni={R\bibinitperiod}}}%
+        {{hash=f1241180a26a0f8139ee59bce382bb0b}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={Lane},
+           giveni={L\bibinitperiod}}}%
+        {{hash=9d1f86a2270e033169b419a4bf20ae76}{%
+           family={Kim},
+           familyi={K\bibinitperiod},
+           given={Doyeon},
+           giveni={D\bibinitperiod}}}%
+        {{hash=782e0f3b1b1bb8e148246add60b0fea8}{%
+           family={Ferris},
+           familyi={F\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a128f717c2d0a0ca23b42da2e4e32b8c}{%
+           family={Voyles},
+           familyi={V\bibinitperiod},
+           given={Paul\bibnamedelima M.},
+           giveni={P\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=4d9c96a8604deb9b0ba69f71c5a0d305}{%
+           family={Morgan},
+           familyi={M\bibinitperiod},
+           given={Dane},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ef1fd4a400dec702b5baeeac0f942be7}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+        {{hash=9b3e57daccbdfbd9465e35f5e752a607}{%
+           family={Blaiszik},
+           familyi={B\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Open Journal}%
+      }
+      \strng{namehash}{bdf2c1565e6acffd32de0b062e5ff696}
+      \strng{fullhash}{0594379c6fe5859e28e9b5d75f06eda8}
+      \strng{bibnamehash}{bdf2c1565e6acffd32de0b062e5ff696}
+      \strng{authorbibnamehash}{bdf2c1565e6acffd32de0b062e5ff696}
+      \strng{authornamehash}{bdf2c1565e6acffd32de0b062e5ff696}
+      \strng{authorfullhash}{0594379c6fe5859e28e9b5d75f06eda8}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Open Source Software}
+      \field{number}{93}
+      \field{title}{Foundry-ML - Software and Services to Simplify Access to Machine Learning Datasets in Materials Science}
+      \field{volume}{9}
+      \field{year}{2024}
+      \field{pages}{5467}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.21105/joss.05467
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.21105/joss.05467
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.21105/joss.05467
+      \endverb
+    \endentry
     \entry{afflerbach_2022}{article}{}
       \name{author}{12}{}{%
         {{hash=3691e207113bc727348237b3bdada5ed}{%
@@ -705,6 +838,71 @@
       \endverb
       \verb{url}
       \verb https://www.sciencedirect.com/science/article/pii/S0927025620304493
+      \endverb
+    \endentry
+    \entry{halls_2018}{article}{}
+      \name{author}{7}{}{%
+        {{hash=9376111c8bdb54781ea15770d0d89fe6}{%
+           family={Halls},
+           familyi={H\bibinitperiod},
+           given={B.R.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=af13464048794e97d728b120e77e946d}{%
+           family={Gord},
+           familyi={G\bibinitperiod},
+           given={J.R.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=62c7c25dc2546e594546c65daf7659bf}{%
+           family={Schultz},
+           familyi={S\bibinitperiod},
+           given={L.E.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=0b5b1b78b9f2bb04de43c2b561fdb92d}{%
+           family={Slowman},
+           familyi={S\bibinitperiod},
+           given={W.C.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=b692621706e3ec578bd2fbd73b0e236a}{%
+           family={Lightfoot},
+           familyi={L\bibinitperiod},
+           given={M.D.A.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=7b82e72e46640a6021b1c6e15b764743}{%
+           family={Roy},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=eede4e0619dd316cfb5693cdf639f9f5}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={T.R.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{0f438f0e313d43728e5458358c0ef3f2}
+      \strng{fullhash}{779ccdcd39d11f58e279aca457ca2583}
+      \strng{bibnamehash}{0f438f0e313d43728e5458358c0ef3f2}
+      \strng{authorbibnamehash}{0f438f0e313d43728e5458358c0ef3f2}
+      \strng{authornamehash}{0f438f0e313d43728e5458358c0ef3f2}
+      \strng{authorfullhash}{779ccdcd39d11f58e279aca457ca2583}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0301-9322}
+      \field{journaltitle}{International Journal of Multiphase Flow}
+      \field{title}{Quantitative 10-50 kHz X-ray radiography of liquid spray distributions using a rotating-anode tube source}
+      \field{volume}{109}
+      \field{year}{2018}
+      \field{pages}{123\bibrangedash 130}
+      \range{pages}{8}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.ijmultiphaseflow.2018.07.014
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0301932218301198
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0301932218301198
       \endverb
     \endentry
     \entry{schneider_2016}{inproceedings}{}

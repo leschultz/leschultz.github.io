@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.5.16)  24 JUN 2024 11:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.5.16)  24 JUN 2024 11:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1084,9 +1084,9 @@ LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
-))
-(./sections/teaching.tex [2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-su
-per/cm-super-t1.enc}]) (./sections/presentations.tex) (./sections/awards.tex)
+) [2{/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]) 
+(./sections/teaching.tex) (./sections/presentations.tex) (./sections/awards.tex
+)
 (./sections/interests.tex) [3] (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
 (rerunfilecheck)             Checksum: 145E83A4456C02834D3DEACE5FAD3DB7;2528.
@@ -1095,22 +1095,22 @@ Package logreq Info: Writing requests to 'resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22019 strings out of 476041
- 393379 string characters out of 5793164
+ 22021 strings out of 476041
+ 393477 string characters out of 5793164
  1880388 words of memory out of 6000000
- 42095 multiletter control sequences out of 15000+600000
+ 42097 multiletter control sequences out of 15000+600000
  603840 words of font info for 62 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
- 140i,12n,134p,679b,1761s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 140i,11n,134p,679b,1761s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-
 It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSan
 sPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro
 /SourceSansPro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/c
 m-super/sftt1200.pfb>
-Output written on resume.pdf (3 pages, 219518 bytes).
+Output written on resume.pdf (3 pages, 220830 bytes).
 PDF statistics:
- 127 PDF objects out of 1000 (max. 8388607)
- 110 compressed objects within 2 object streams
+ 131 PDF objects out of 1000 (max. 8388607)
+ 114 compressed objects within 2 object streams
  17 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
