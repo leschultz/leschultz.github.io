@@ -50,7 +50,7 @@
       \field{labeltitlesource}{title}
       \field{title}{Machine Learning Metallic Glass Critical Cooling Rates Through Atomistic and Molecular Dynamic Material Properties}
     \endentry
-    \entry{schultz_kde_2024}{misc}{}
+    \entry{schultz_kde_2024}{article}{}
       \name{author}{4}{}{%
         {{hash=26cb056b27ee88c3de0aeb0c4d2bb553}{%
            family={Schultz},
@@ -261,7 +261,7 @@
       \verb https://arc.aiaa.org/doi/abs/10.2514/6.2018-3737
       \endverb
     \endentry
-    \entry{meng_2024}{misc}{}
+    \entry{meng_2024}{article}{}
       \name{author}{8}{}{%
         {{hash=c65c35c66755b7ce7c8e39a7bc0ad7a0}{%
            family={Meng},
@@ -441,7 +441,7 @@
       \field{labeltitlesource}{title}
       \field{title}{Composition-Resolved Dynamics in Metallic Supercooled Liquids from Momentum-Resolved Electron Correlation Microscopy}
     \endentry
-    \entry{agrawal_2024}{misc}{}
+    \entry{agrawal_2024}{article}{}
       \name{author}{4}{}{%
         {{hash=fa5ae1ba4dfe7dedef96b61077e4d1a6}{%
            family={Agrawal},
