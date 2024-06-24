@@ -1,4 +1,3 @@
 #!/bin/bash
-pdflatex resume.tex
-bibtex resume
-pdflatex resume.tex
+latexmk -pdf resume.tex
+xdg-open resume.pdf
