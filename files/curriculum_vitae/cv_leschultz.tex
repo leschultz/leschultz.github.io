@@ -1,0 +1,40 @@
+\documentclass[letter,12pt]{article}
+
+\usepackage[natbib=true,
+            style=ieee,
+            sorting=none,
+            maxcitenames=99,
+            citestyle=numeric-comp,
+            ]{biblatex}
+
+\usepackage[utf8]{inputenc}
+\usepackage{TLCresume}
+
+\def\name{Lane E. Schultz} % Name Here
+\def\phone{(806) 678-6904}
+\def\city{Madison, WI}
+\def\email{lsschultz@wisc.edu}
+\def\LinkedIn{lane-schultz-983920236} % linkedin.com/in/______
+\def\github{leschultz} % github username
+\def\role{Research Assistant} % JOB TITLE
+
+\input{header_footer}
+
+\addbibresource{sections/refs.bib}
+
+\begin{document}
+
+\vspace*{1px}
+\input{sections/education}
+\input{sections/skills}
+\input{sections/experience}
+\thispagestyle{plain}
+\input{sections/publications}
+\thispagestyle{plain}
+\input{sections/presentations}
+\input{sections/teaching}
+\input{sections/awards}
+\input{sections/interests}
+\thispagestyle{plain}
+
+\end{document}
