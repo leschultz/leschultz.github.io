@@ -1,17 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'resume.blg'
-[38] biber:340> INFO - === Tue Jun 25, 2024, 10:00:55
-[45] Biber.pm:419> INFO - Reading 'resume.bcf'
-[75] Biber.pm:979> INFO - Found 19 citekeys in bib section 0
-[81] Biber.pm:4419> INFO - Processing section 0
-[86] Biber.pm:4610> INFO - Looking for bibtex file 'sections/refs.bib' for section 0
-[86] bibtex.pm:1713> INFO - LaTeX decoding ...
-[93] bibtex.pm:1519> INFO - Found BibTeX data source 'sections/refs.bib'
-[204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[204] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[204] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[204] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[212] bbl.pm:660> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
-[217] bbl.pm:763> INFO - Output to resume.bbl
-[217] Biber.pm:131> WARN - Duplicate entry key: 'schultz_presentation_2021' in file 'sections/refs.bib', skipping ...
-[217] Biber.pm:133> INFO - WARNINGS: 1
+[36] biber:340> INFO - === Tue Jun 25, 2024, 12:10:46
+[43] Biber.pm:419> INFO - Reading 'resume.bcf'
+[71] Biber.pm:979> INFO - Found 15 citekeys in bib section 0
+[76] Biber.pm:4419> INFO - Processing section 0
+[80] Biber.pm:4610> INFO - Looking for bibtex file 'sections/refs.bib' for section 0
+[81] bibtex.pm:1713> INFO - LaTeX decoding ...
+[87] bibtex.pm:1519> INFO - Found BibTeX data source 'sections/refs.bib'
+[181] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[181] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[181] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[181] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[187] bbl.pm:660> INFO - Writing 'resume.bbl' with encoding 'UTF-8'
+[191] bbl.pm:763> INFO - Output to resume.bbl

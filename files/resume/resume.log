@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.5.16)  25 JUN 2024 10:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Fedora 40) (preloaded format=pdflatex 2024.5.16)  25 JUN 2024 12:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -851,16 +851,16 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'english'.
 LaTeX Font Info:    Trying to load font information for T1+SourceSansPro-TLF on
- input line 49.
+ input line 50.
 
 (/usr/share/texlive/texmf-dist/tex/latex/sourcesanspro/T1SourceSansPro-TLF.fd
 File: T1SourceSansPro-TLF.fd 2020/01/19 (autoinst) Font definitions for T1/Sour
 ceSansPro-TLF.
 )
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 49.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 50.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 49.
+(Font)              scaled to size 12.0pt on input line 50.
 
 
 LaTeX Warning: Unused global option(s):
@@ -869,31 +869,31 @@ LaTeX Warning: Unused global option(s):
 (./resume.aux)
 \openout1 = `resume.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 49.
-LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 4
-9.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for LY1/ptm/m/n on input line 50.
+LaTeX Font Info:    Trying to load font information for LY1+ptm on input line 5
+0.
  (/usr/share/texlive/texmf-dist/tex/latex/ly1/ly1ptm.fd
 File: ly1ptm.fd 2001/02/01 font definitions for LY1/ptm using Berry names.
 )
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 49.
-LaTeX Font Info:    ... okay on input line 49.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 50.
+LaTeX Font Info:    ... okay on input line 50.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -951,7 +951,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 49.
+Package hyperref Info: Link coloring ON on input line 50.
 
 (./resume.out) (./resume.out)
 \@outlinefile=\write4
@@ -972,9 +972,9 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'resume.bbl' found.
 
 (./resume.bbl)
-Package biblatex Info: Reference section=0 on input line 49.
-Package biblatex Info: Reference segment=0 on input line 49.
- (./sections/objective.tex) (./sections/education.tex
+Package biblatex Info: Reference section=0 on input line 50.
+Package biblatex Info: Reference segment=0 on input line 50.
+ (./sections/education.tex
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/sc' aliased to
 (Font)              `T1/SourceSansPro-TLF/regular/sc' on input line 1.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/sc' will be
@@ -991,8 +991,7 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/it' aliased to
 (Font)              `T1/SourceSansPro-TLF/regular/it' on input line 3.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/it' will be
 (Font)              scaled to size 12.0pt on input line 3.
-)
-(./sections/skills.tex
+) (./sections/skills.tex
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -1003,7 +1002,8 @@ LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
 (Font)              `T1/SourceSansPro-TLF/regular/n' on input line 4.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
 (Font)              scaled to size 8.0pt on input line 4.
-) (./sections/experience.tex
+)
+(./sections/experience.tex
 Overfull \hbox (117.97499pt too wide) in paragraph at lines 3--1
 [] 
  []
@@ -1049,18 +1049,22 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `\hfill' on input line 40.
 
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `\hfill' on input line 48.
+
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 46.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 51.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 24.88pt on input line 46.
+(Font)              scaled to size 24.88pt on input line 51.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/sb/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 46.
+(Font)              `T1/SourceSansPro-TLF/semibold/n' on input line 51.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/semibold/n' will be
-(Font)              scaled to size 24.88pt on input line 46.
+(Font)              scaled to size 24.88pt on input line 51.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/m/n' aliased to
-(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 46.
+(Font)              `T1/SourceSansPro-TLF/regular/n' on input line 51.
 LaTeX Font Info:    Font shape `T1/SourceSansPro-TLF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 46.
+(Font)              scaled to size 17.28pt on input line 51.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 43.02097pt, for example:
@@ -1073,13 +1077,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 dist/fonts/enc/dvips/sourcesanspro/a_emkxm5.enc}
 
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_4jropk.enc}{/usr
-/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc}]
-
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\hfill' on input line 48.
-
-) (./sections/publications.tex
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 7
+/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc}]) (./sect
+ions/publications.tex
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 6
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
@@ -1088,16 +1088,16 @@ File: t1cmtt.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 (./sections/presentations.tex) (./sections/teaching.tex) (./sections/awards.tex
 ) (./sections/interests.tex) [3] (./resume.aux)
 Package rerunfilecheck Info: File `resume.out' has not changed.
-(rerunfilecheck)             Checksum: 02545AEC8F2272ED412E1164C00914BA;2528.
+(rerunfilecheck)             Checksum: 86AAAD024D8372E7C5D198F52281B356;2751.
 Package logreq Info: Writing requests to 'resume.run.xml'.
 \openout1 = `resume.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 22027 strings out of 476041
- 393790 string characters out of 5793164
- 1879388 words of memory out of 6000000
- 42103 multiletter control sequences out of 15000+600000
+ 22020 strings out of 476041
+ 393452 string characters out of 5793164
+ 1878388 words of memory out of 6000000
+ 42098 multiletter control sequences out of 15000+600000
  603840 words of font info for 62 fonts, out of 8000000 for 9000
  1137 hyphenation exceptions out of 8191
  140i,11n,134p,679b,1761s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1106,10 +1106,10 @@ It.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSan
 sPro-Regular.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro
 /SourceSansPro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/c
 m-super/sftt1200.pfb>
-Output written on resume.pdf (3 pages, 220566 bytes).
+Output written on resume.pdf (3 pages, 221062 bytes).
 PDF statistics:
- 131 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
- 17 named destinations out of 1000 (max. 500000)
- 105 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 135 PDF objects out of 1000 (max. 8388607)
+ 118 compressed objects within 2 object streams
+ 18 named destinations out of 1000 (max. 500000)
+ 113 words of extra memory for PDF output out of 10000 (max. 10000000)
 
