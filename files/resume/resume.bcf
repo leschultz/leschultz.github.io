@@ -2380,6 +2380,10 @@
     <bcf:citekey order="13" intorder="1">janqi_2020</bcf:citekey>
     <bcf:citekey order="14" intorder="1">halls_2018</bcf:citekey>
     <bcf:citekey order="15" intorder="1">schneider_2016</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">schultz_presentation_2021</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">schultz_presentation_2020</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">schultz_presentation_2018</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">schultz_presentation_2016</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">

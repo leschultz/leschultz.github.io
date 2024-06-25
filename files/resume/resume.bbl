@@ -949,6 +949,59 @@
       \verb 10.1109/OCEANS.2016.7761392
       \endverb
     \endentry
+    \entry{schultz_presentation_2021}{inproceedings}{}
+      \list{location}{1}{%
+        {Columbus, OH}%
+      }
+      \list{organization}{1}{%
+        {Materials Science \& Technology}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Molecular Dynamic Characteristic Temperatures for Predicting Metallic Glass Forming Ability}
+      \field{year}{2021}
+    \endentry
+    \entry{schultz_presentation_2020}{inproceedings}{}
+      \list{location}{1}{%
+        {Virtual}%
+      }
+      \list{organization}{1}{%
+        {Virtual Materials Research Society Spring/Fall Meeting \& Exhibit}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Molecular Dynamics Features for Predicting Metallic Glass Critical Casting Thickness}
+      \field{year}{2020}
+    \endentry
+    \entry{schultz_presentation_2018}{inproceedings}{}
+      \list{location}{1}{%
+        {Atlanta, GA}%
+      }
+      \list{organization}{2}{%
+        {American Institute of Aeronautics}%
+        {Astronautics}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Design of torsional test stand for micro-newton force detection}
+      \field{year}{2018}
+    \endentry
+    \entry{schultz_presentation_2016}{inproceedings}{}
+      \list{location}{1}{%
+        {Monterey, CA}%
+      }
+      \list{organization}{1}{%
+        {OCEANS}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Development of a portable water quality sensor for river monitoring from small rafts}
+      \field{year}{2016}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
