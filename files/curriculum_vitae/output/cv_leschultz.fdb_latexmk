@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber output/cv_leschultz"] 1719336190.5418 "output/cv_leschultz.bcf" "output/cv_leschultz.bbl" "output/cv_leschultz" 1719336192.39572 0
-  "output/cv_leschultz.bcf" 1719336192.31558 107844 d414101b9811d207b5d010aa14ccbc62 "pdflatex"
+["biber output/cv_leschultz"] 1719343201.62175 "output/cv_leschultz.bcf" "output/cv_leschultz.bbl" "output/cv_leschultz" 1719343364.01895 0
+  "output/cv_leschultz.bcf" 1719343363.93446 107844 d414101b9811d207b5d010aa14ccbc62 "pdflatex"
   "sections/refs.bib" 1719334649.0319 7566 3e2a753289995c8ca600079129eb1010 ""
   (generated)
   "output/cv_leschultz.bbl"
   "output/cv_leschultz.blg"
   (rewritten before read)
-["pdflatex"] 1719336191.73715 "cv_leschultz.tex" "output/cv_leschultz.pdf" "output/cv_leschultz" 1719336192.39594 0
+["pdflatex"] 1719343363.28657 "cv_leschultz.tex" "output/cv_leschultz.pdf" "output/cv_leschultz" 1719343364.01918 0
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_4jropk.enc" 1587936753 3267 177411e539fcc6ace86309ff03b22da6 ""
   "/usr/share/texlive/texmf-dist/fonts/enc/dvips/sourcesanspro/a_5ponh6.enc" 1587936753 3344 37c976a8b2fa4b8f132a488735054f7d ""
@@ -36,6 +36,7 @@
   "/usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-It.pfb" 1587936753 263595 c7d0bf539613db43888d746e8e621f5b ""
   "/usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regular.pfb" 1587936753 336785 795f953d37ac49dd5bce485becd006cc ""
   "/usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Semibold.pfb" 1587936753 348377 8320fef6dc51fa7e8af5aeb1bf35348b ""
+  "/usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1215737283 136101 f533469f523533d38317ab5729d00c8a ""
   "/usr/share/texlive/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb" 1215737283 167085 68de377d2744a68a88fa40a1f610615a ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-It-tlf-t1.vf" 1587936753 1728 cd0ad4aba341a5f4c4f098074aa956aa ""
   "/usr/share/texlive/texmf-dist/fonts/vf/adobe/sourcesanspro/SourceSansPro-Regular-tlf-sc-t1.vf" 1587936753 1720 edb492fd2440e27332799bec9e83eaf3 ""
@@ -157,20 +158,19 @@
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1715911350.19556 4602615 ac1019cb4c4ba39710c2cf7f752b378d ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1715911212 7753314 c0f13155f7ff899c77e65b843c50293f ""
   "TLCresume.sty" 1719324131.79806 1673 1c53c447c14300828a59bbe6c1558663 ""
-  "cv_leschultz.tex" 1719335795.84362 912 cce91f436f1d98bb416f039904fb3d81 ""
-  "header_footer.tex" 1719324131.79806 716 5e91f51b89ec545e3d3f6d4b89573660 ""
-  "output/cv_leschultz.aux" 1719336192.31258 3665 5659b41768f21bb150ebc7697709d421 "pdflatex"
-  "output/cv_leschultz.bbl" 1719336191.00355 34668 32bd285c0b1afdfc3174487b019cce00 "biber output/cv_leschultz"
-  "output/cv_leschultz.out" 1719336192.31358 2751 86aaad024d8372e7c5d198f52281b356 "pdflatex"
-  "output/cv_leschultz.run.xml" 1719336192.31558 2516 e2194381547694bd0682d4627a606566 "pdflatex"
-  "sections/awards.tex" 1719326010.23373 954 9e2526f19fb9119dd27373e640de5827 ""
-  "sections/education.tex" 1719324131.79906 390 ad2a321713689dc4d749cd1f2e27525b ""
-  "sections/experience.tex" 1719327908.66737 3174 e099f7cbb524ade032c9047342ed9045 ""
+  "cv_leschultz.tex" 1719342969.25586 1411 eafe4b0b0530484a37c088252e8f5d32 ""
+  "output/cv_leschultz.aux" 1719343363.93146 2840 9abea4e7ecf4ab4022233b0d24a8eddd "pdflatex"
+  "output/cv_leschultz.bbl" 1719343202.05593 34668 32bd285c0b1afdfc3174487b019cce00 "biber output/cv_leschultz"
+  "output/cv_leschultz.out" 1719343363.93246 1166 10c9dfb451c95f3c1253d3df960b71d4 "pdflatex"
+  "output/cv_leschultz.run.xml" 1719343363.93546 2516 e2194381547694bd0682d4627a606566 "pdflatex"
+  "sections/awards.tex" 1719342451.95858 932 8f50c1c443f21ded67d8be6ccf1afe29 ""
+  "sections/education.tex" 1719338437.68743 420 c4e65718203ff25abb0234f0a403e140 ""
+  "sections/experience.tex" 1719343362.16342 3159 58a51771e3270df855b65c76dd54870f ""
   "sections/interests.tex" 1719324131.79906 95 fa03e537bb991ca647c69ad7f6e9efc4 ""
-  "sections/presentations.tex" 1719333319.65112 241 06610f386deffdc708d88914a09d6d99 ""
-  "sections/publications.tex" 1719334944.22149 757 50823ff13b5dac143ebcff452897d2d7 ""
-  "sections/skills.tex" 1719324131.79906 495 bf786755d76ddbcaa7e7fd5f6c618692 ""
-  "sections/teaching.tex" 1719326286.7542 475 a6bc334a1ecce030e47b62368e4679c1 ""
+  "sections/presentations.tex" 1719342467.81293 219 e37965c63487f6517d438098c765c460 ""
+  "sections/publications.tex" 1719342480.73021 713 bdcb78c7ab3a05030ab5b6fa49b0b335 ""
+  "sections/skills.tex" 1719338259.22153 477 e2df21a9a7bf9aa1c25abeac4ae4f774 ""
+  "sections/teaching.tex" 1719342458.71673 453 6a04c3bdb1b23817760679add8cd031d ""
   (generated)
   "output/cv_leschultz.aux"
   "output/cv_leschultz.bcf"

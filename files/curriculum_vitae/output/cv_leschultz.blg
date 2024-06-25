@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'output/cv_leschultz.blg'
-[37] biber:340> INFO - === Tue Jun 25, 2024, 12:23:10
-[44] Biber.pm:419> INFO - Reading 'output/cv_leschultz.bcf'
-[74] Biber.pm:979> INFO - Found 15 citekeys in bib section 0
-[80] Biber.pm:4419> INFO - Processing section 0
-[84] Biber.pm:4610> INFO - Looking for bibtex file 'sections/refs.bib' for section 0
-[85] bibtex.pm:1713> INFO - LaTeX decoding ...
-[91] bibtex.pm:1519> INFO - Found BibTeX data source 'sections/refs.bib'
-[191] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[191] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[191] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[192] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[200] bbl.pm:660> INFO - Writing 'output/cv_leschultz.bbl' with encoding 'UTF-8'
-[204] bbl.pm:763> INFO - Output to output/cv_leschultz.bbl
+[35] biber:340> INFO - === Tue Jun 25, 2024, 14:20:01
+[42] Biber.pm:419> INFO - Reading 'output/cv_leschultz.bcf'
+[69] Biber.pm:979> INFO - Found 15 citekeys in bib section 0
+[75] Biber.pm:4419> INFO - Processing section 0
+[79] Biber.pm:4610> INFO - Looking for bibtex file 'sections/refs.bib' for section 0
+[80] bibtex.pm:1713> INFO - LaTeX decoding ...
+[85] bibtex.pm:1519> INFO - Found BibTeX data source 'sections/refs.bib'
+[179] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[179] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[179] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[179] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[185] bbl.pm:660> INFO - Writing 'output/cv_leschultz.bbl' with encoding 'UTF-8'
+[188] bbl.pm:763> INFO - Output to output/cv_leschultz.bbl
