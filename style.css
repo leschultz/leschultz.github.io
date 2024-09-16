@@ -1710,4 +1710,6 @@ header .circle {
   }
 }
 
-/* End Responsive */
+p {
+  text-align: justify;
+}
