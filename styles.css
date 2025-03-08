@@ -1,0 +1,50 @@
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #3498db;
+  --accent-color: #e74c3c;
+  --text-color: #333;
+  --light-color: #f8f9fa;
+  --dark-color: #343a40;
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: 'Montserrat', sans-serif;
+}
+
+/* Modern, responsive styling */
+body {
+  font-family: var(--font-primary);
+  line-height: 1.6;
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+/* Add animations and transitions */
+.timeline-item, .document-card {
+  transition: transform 0.3s ease;
+}
+
+.timeline-item:hover, .document-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .about-content, .contact-content {
+    flex-direction: column;
+  }
+
+  .timeline-content {
+    padding-left: 20px;
+  }
+}

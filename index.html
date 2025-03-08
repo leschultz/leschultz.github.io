@@ -1,202 +1,911 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lane Enrique Schultz | Materials Scientist & Engineer</title>
+    <meta name="description" content="Personal website of Lane Enrique Schultz, Ph.D. - Materials Scientist and Engineer specializing in machine learning for materials science.">
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Lane Enrique Schultz</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="img/favicon.png">
 
-  <body>
-    <main>
-      <header id="header">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --text-color: #333;
+            --light-color: #f8f9fa;
+            --light-gray: #e9ecef;
+            --dark-color: #343a40;
+            --font-primary: 'Roboto', sans-serif;
+            --font-secondary: 'Montserrat', sans-serif;
+            --transition: all 0.3s ease;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: var(--font-primary);
+            line-height: 1.6;
+            color: var(--text-color);
+            overflow-x: hidden;
+            background-color: var(--light-color);
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--font-secondary);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+            color: var(--secondary-color);
+            transition: var(--transition);
+        }
+
+        a:hover {
+            color: var(--accent-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .section-header h2 {
+            font-size: 2.5rem;
+            position: relative;
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+
+        .section-header h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 80px;
+            height: 3px;
+            background-color: var(--secondary-color);
+        }
+
+        /* Header & Navigation */
+        header {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: var(--primary-color);
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .logo {
+            font-family: var(--font-secondary);
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: white;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            font-weight: 500;
+            position: relative;
+        }
+
+        nav ul li a::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 0;
+            height: 2px;
+            background-color: var(--accent-color);
+            transition: var(--transition);
+        }
+
+        nav ul li a:hover::after {
+            width: 100%;
+        }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.5rem;
+            cursor: pointer;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)), url('img/hero-bg.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding-top: 80px;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero h2 {
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
+            color: var(--secondary-color);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 30px;
+            border-radius: 30px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: var(--transition);
+        }
+
+        .btn.primary {
+            background-color: var(--secondary-color);
+            color: white;
+        }
+
+        .btn.primary:hover {
+            background-color: var(--accent-color);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .btn.secondary {
+            background-color: transparent;
+            color: white;
+            border: 2px solid white;
+        }
+
+        .btn.secondary:hover {
+            background-color: white;
+            color: var(--primary-color);
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        /* About Section */
+        .about {
+            background-color: white;
+        }
+
+        .about-content {
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        .about-image {
+            flex: 1;
+        }
+
+        .about-image img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-text {
+            flex: 1;
+        }
+
+        .about-text p {
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 15px;
+            margin-top: 30px;
+        }
+
+        .social-links a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: var(--light-gray);
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            transition: var(--transition);
+        }
+
+        .social-links a:hover {
+            background-color: var(--secondary-color);
+            color: white;
+            transform: translateY(-3px);
+        }
+
+        /* Education Section */
+        .education {
+            background-color: var(--light-color);
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .timeline::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 2px;
+            height: 100%;
+            background-color: var(--secondary-color);
+        }
+
+        .timeline-item {
+            position: relative;
+            margin-bottom: 50px;
+        }
+
+        .timeline-icon {
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: var(--secondary-color);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            z-index: 1;
+        }
+
+        .timeline-content {
+            position: relative;
+            width: 45%;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .timeline-item:nth-child(odd) .timeline-content {
+            left: 55%;
+        }
+
+        .timeline-item:nth-child(even) .timeline-content {
+            left: 0;
+        }
+
+        .timeline-content h3 {
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .timeline-content h4 {
+            color: var(--secondary-color);
+            font-weight: 500;
+            margin-bottom: 10px;
+        }
+
+        /* Research Section */
+        .research {
+            background-color: white;
+        }
+
+        .research-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 30px;
+        }
+
+        .research-card {
+            background-color: var(--light-color);
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            transition: var(--transition);
+        }
+
+        .research-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+        }
+
+        .research-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .research-card-content {
+            padding: 20px;
+        }
+
+        .research-card-content h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        /* Publications Section */
+        .publications {
+            background-color: var(--light-color);
+        }
+
+        .publication-list {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        .publication-item {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+        }
+
+        .publication-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .publication-item h3 {
+            color: var(--primary-color);
+            margin-bottom: 10px;
+        }
+
+        .publication-item p {
+            margin-bottom: 10px;
+            color: var(--dark-color);
+        }
+
+        .publication-item .authors {
+            font-style: italic;
+            color: var(--secondary-color);
+        }
+
+        .publication-item .journal {
+            font-weight: 500;
+        }
+
+        /* Documents Section */
+        .documents {
+            background-color: white;
+        }
+
+        .document-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 30px;
+        }
+
+        .document-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 30px;
+            background-color: var(--light-color);
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+            transition: var(--transition);
+            text-align: center;
+        }
+
+        .document-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+            background-color: var(--secondary-color);
+            color: white;
+        }
+
+        .document-card:hover h3 {
+            color: white;
+        }
+
+        .document-card i {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            transition: var(--transition);
+        }
+
+        .document-card:hover i {
+            color: white;
+        }
+
+        .document-card h3 {
+            color: var(--primary-color);
+            transition: var(--transition);
+        }
+
+        /* Contact Section */
+        .contact {
+            background-color: var(--light-color);
+        }
+
+        .contact-content {
+            display: flex;
+            gap: 50px;
+        }
+
+        .contact-info {
+            flex: 1;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+
+        .contact-item i {
+            width: 50px;
+            height: 50px;
+            background-color: var(--secondary-color);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            margin-right: 20px;
+        }
+
+        .contact-form {
+            flex: 1;
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 15px;
+            margin-bottom: 20px;
+            border: none;
+            border-radius: 5px;
+            background-color: white;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        .contact-form textarea {
+            height: 150px;
+            resize: none;
+        }
+
+        /* Footer */
+        footer {
+            background-color: var(--primary-color);
+            color: white;
+            text-align: center;
+            padding: 30px 0;
+        }
+
+        .footer-content {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .footer-content p {
+            margin-bottom: 20px;
+        }
+
+        .footer-social {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-bottom: 20px;
+        }
+
+        .footer-social a {
+            color: white;
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .footer-social a:hover {
+            color: var(--secondary-color);
+            transform: translateY(-3px);
+        }
+
+        .copyright {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 992px) {
+            .about-content {
+                flex-direction: column;
+            }
+
+            .contact-content {
+                flex-direction: column;
+            }
+
+            .timeline::before {
+                left: 30px;
+            }
+
+            .timeline-icon {
+                left: 30px;
+            }
+
+            .timeline-content {
+                width: calc(100% - 80px);
+                left: 80px !important;
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+            }
+
+            .mobile-menu-btn {
+                display: block;
+            }
+
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero h2 {
+                font-size: 1.5rem;
+            }
+
+            .section-header h2 {
+                font-size: 2rem;
+            }
+
+            .cta-buttons {
+                flex-direction: column;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
         <nav>
-          <div class="container">
-	    <div></div>
-            <div class="links">
-              <ul>
-                <li>
-                  <a href="#header">Home</a>
-                </li>
-                <li>
-                  <a href="#Education">Education</a>
-                </li>
-                <li>
-                  <a href="#about">About</a>
-                </li>
-                <li>
-                  <a href="#contact">Contact</a>
-                </li>
-                <li>
-                  <a href="#files">Files</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="hamburger-menu">
-              <div class="bar"></div>
-            </div>
-          </div>
+            <div class="logo">Lane E. Schultz, Ph.D.</div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#research">Research</a></li>
+                <li><a href="#publications">Publications</a></li>
+                <li><a href="#documents">Documents</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
         </nav>
+    </header>
 
-      </header>
-
-      <section class="about section" id="about">
+    <!-- Hero Section -->
+    <section id="home" class="hero">
         <div class="container">
-          <div class="section-header">
-            <h3 class="title">About me</h3>
-          </div>
-
-          <div class="section-body grid-2">
-            <div class="column-1">
-              <h3 class="title-sm">Hello, I'm</h3>
-              <p class="text">
-
-                an accomplished materials scientist and engineer with an impressive academic background, including a Ph.D. and M.S. in Materials Science and Engineering from the University of Wisconsin-Madison and a B.S. in Engineering from Fort Lewis College, all with excellent GPAs. My technical skills span a wide range of programming languages, software tools, and advanced materials characterization and simulation techniques. Through my research experience, I have made significant contributions in the fields of machine learning for materials, scientific computing, and metallic glasses. I have authored or co-authored numerous peer-reviewed journal publications.
-              </p>
+            <h1>Lane Enrique Schultz</h1>
+            <h2>Materials Scientist & Engineer</h2>
+            <p>Specializing in machine learning for materials, scientific computing, and metallic glasses</p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary">Get in Touch</a>
+                <a href="#about" class="btn secondary">Learn More</a>
             </div>
-
-            <div class="column-2 image">
-              <img src="./img/about.png" class="z-index" alt="" />
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section class="Education section" id="Education">
-        <div class="container">
-          <div class="section-header">
-            <h3 class="title">Education</h3>
-          </div>
-
-          <div class="cards">
-            <div class="card-wrap">
-              <img
-                src="./img/shapes/points3.png"
-                class="points points1 points-sq"
-                alt=""
-              />
-              <div class="card">
-                <div class="card-content z-index">
-                  <img src="./img/undergraduate-icon.png" class="icon" alt="" />
-                  <h3 class="title-sm">Undergraduate</h3>
-                  <p class="text">
-                    School: <a href="https://www.fortlewis.edu/academics/schools-departments/departments/physics-engineering-department/physics-engineering-home">Fort Lewis College</a> </p>
-                    <p><b>B.S. - </b> Science in Engineering</p>
-                    <p><b>Concentration - </b> Electro/Mechanical</p>
-                    <p><b>Minor - </b> Mathematics</p>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-wrap">
-              <div class="card">
-                <div class="card-content z-index">
-                  <img src="./img/graduate-icon.png" class="icon" alt="" />
-                  <h3 class="title-sm">Graduate</h3>
-                  <p class="text">
-                    School: <a href="https://engineering.wisc.edu/departments/materials-science-engineering/">University of Wisconsin-Madison</a></p>
-                   <p><b>M.S. - </b> Materials Science and Engineering</p>
-                    <p><b>Ph.D. - </b> Materials Science and Engineering</p>
-                    <p><b>Distributed Minor - </b> Machine Learning </p>
-                  </p>
-                </div>
-              </div>
-            </div>
-
-            <div class="card-wrap">
-              <img
-                src="./img/shapes/points3.png"
-                class="points points2 points-sq"
-                alt=""
-              />
-
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="contact" id="contact">
-        <div class="container">
-          <div class="contact-box">
-            <div class="contact-info">
-              <h3 class="title">Get in touch</h3>
-              <p class="text">
-                If you have any questions, feel free to reach out.
-              </p>
-              <div class="information-wrap">
-                <div class="information">
-                  <div class="contact-icon">
-                    <i class="fas fa-map-marker-alt"></i>
-                  </div>
-                  <p class="info-text">Sudan, Texas</p>
-                </div>
-
-                <div class="information">
-                  <div class="contact-icon">
-                    <i class="fas fa-paper-plane"></i>
-                  </div>
-                  <p class="info-text">laneenriqueschultz@gmail.com</p>
-                </div>
-
-                <div class="information">
-                  <div class="contact-icon">
-                    <i class="fas fa-phone-alt"></i>
-                  </div>
-                  <p class="info-text">(806) 678-6904</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section class="files section" id="files">
-        <div class="background-bg">
-        </div>
+    <!-- About Section -->
+    <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <h3 class="title">My Files</h3>
+                <h2>About Me</h2>
             </div>
-
-        <div class="section-body">
-            <ul class="filter">
-                <li><a href="https://leschultz.github.io/curriculum_vitae/cv_full_leschultz.pdf" class="btn">Curriculum Vitae (Complete)</a></li>
-                <li><a href="https://leschultz.github.io/curriculum_vitae/cv_academic_leschultz.pdf" class="btn">Curriculum Vitae (Academic)</a></li>
-                <li><a href="https://leschultz.github.io/resume/resume_leschultz.pdf" class="btn">Résumé</a></li>
-                <li><a href="files/Schultz_Lane_UW-Madison_Transcript.pdf" class="btn">Academic Transcript University of Wisconsin-Madison</a></li>
-                <li><a href="files/Schultz_Lane_Fort_Lewis_Transcript.pdf" class="btn">Academic Transcript Fort Lewis College</a></li>
-                <li><a href="files/masters.pdf" class="btn">M.s. Diploma</a></li>
-                <li><a href="files/doctorate.pdf" class="btn">Ph.D. Diploma</a></li>
-                <li><a href="files/degree_letter.pdf" class="btn">Degree Letter University of Wisconsin-Madison</a></li>
-            </ul>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/profile.png" alt="Lane Schultz">
+                </div>
+                <div class="about-text">
+                    <p>Hello, I'm
+an accomplished materials scientist and engineer with an impressive academic background, including a Ph.D. and M.S. in Materials Science and Engineering from the University of Wisconsin-Madison and a B.S. in Engineering from Fort Lewis College, all with excellent GPAs. My technical skills span a wide range of programming languages, software tools, and advanced materials characterization and simulation techniques. Through my research experience, I have made significant contributions in the fields of machine learning for materials, scientific computing, and metallic glasses. I have authored or co-authored numerous peer-reviewed journal publications.</p>
+                    <div class="social-links">
+                        <a href="https://github.com/leschultz" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/lane-schultz-983920236/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://scholar.google.com/citations?user=8WyBz08AAAAJ&hl=en&authuser=1" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-      </section>
-
-    </main>
-
-    <footer class="footer">
-
-    <div class="container">
-        <div class="section-header">
-            <h3 class="title-sm">Links</h3>
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+            </div>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>Ph.D. in Materials Science and Engineering</h3>
+                        <h4>University of Wisconsin-Madison</h4>
+                        <p>Distributed Minor in Machine Learning</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>M.S. in Materials Science and Engineering</h3>
+                        <h4>University of Wisconsin-Madison</h4>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <h3>B.S. in Engineering</h3>
+                        <h4>Fort Lewis College</h4>
+                        <p>Concentration in Electro/Mechanical Engineering</p>
+                        <p>Minor in Mathematics</p>
+                    </div>
+                </div>
+            </div>
         </div>
+    </section>
 
-    <div class="section-body">
-        <div class="filter">
-            <a href="https://github.com/leschultz" class="btn">GitHub <i class="fab fa-github"></i></a>
-            <a href="https://www.linkedin.com/in/lane-schultz-983920236/" class="btn">LinkedIn <i class="fab fa-linkedin-in"></i></a>
-            <a href="https://scholar.google.com/citations?user=8WyBz08AAAAJ&hl=en&authuser=1" class="btn">Google Scholar <i class="fas fa-graduation-cap"></i></a>
-            <a href="https://account.ncees.org/rn/1805718-1053113-218c116" class="btn">NCEES FE: PASSED</a>
+    <!-- Research Section -->
+    <section id="research" class="research">
+        <div class="container">
+            <div class="section-header">
+                <h2>Research</h2>
+            </div>
+            <div class="research-grid">
+                <div class="research-card">
+                    <img src="img/nn.png" alt="Machine Learning for Materials">
+                    <div class="research-card-content">
+                        <h3>Machine Learning for Materials</h3>
+                        <p>Developing and applying machine learning algorithms to predict material properties and accelerate materials discovery.</p>
+                    </div>
+                </div>
+                <div class="research-card">
+                    <img src="img/diffusion.png" alt="Metallic Glasses">
+                    <div class="research-card-content">
+                        <h3>Metallic Glasses</h3>
+                        <p>Investigating the structure, properties, and applications of metallic glasses through computational and experimental methods.</p>
+                    </div>
+                </div>
+                <div class="research-card">
+                    <img src="img/metallic_glass.png" alt="Scientific Computing">
+                    <div class="research-card-content">
+                        <h3>Scientific Computing</h3>
+                        <p>Developing computational tools and simulations for materials science applications, with a focus on high-performance computing.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <div class="section-header">
+                <h2>Selected Publications</h2>
+            </div>
+            <div class="publication-list">
+                <div class="publication-item">
+                    <h3>Machine learning metallic glass critical cooling rates through elemental and molecular simulation based featurization</h3>
+                    <p class="authors">Schultz, L.E., Afflerbach, B., Voyles, P.M., Morgan, D.</p>
+                    <p><a href="https://doi.org/10.1016/j.jmat.2024.100964">10.1016/j.jmat.2024.100964</a></p>
+                    <p class="journal">Journal of Materiomics, 2023</p>
+                    <p>A study on predicting glass-forming ability in metallic alloys using various machine learning and modeling approaches.</p>
+                </div>
+                <div class="publication-item">
+                    <h3>Determining Domain of Machine Learning Models using Kernel Density Estimates: Applications in Materials Property Prediction</h3>
+                    <p class="authors">Schultz, L.E., Wang, Y., Jacobs, R., Morgan, D.</p>
+                    <p><a href="https://doi.org/10.48550/arXiv.2406.05143">10.48550/arXiv.2406.05143</a></p>
+                    <p class="journal">arXiv, 2025</p>
+                    <p>A kernel density estimation approach to assess a machine learning model's domain of applicability.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documents Section -->
+    <section id="documents" class="documents">
+        <div class="container">
+            <div class="section-header">
+                <h2>Documents</h2>
+            </div>
+            <div class="document-grid">
+                <a href="https://leschultz.github.io/curriculum_vitae/cv_full_leschultz.pdf" class="document-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Curriculum Vitae</h3>
+                </a>
+                <a href="https://account.ncees.org/rn/1805718-1053113-218c116" class="document-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>NCEES FE</h3>
+                </a>
+                <a href="files/transcript.pdf" class="document-card">
+                    <i class="fas fa-file-alt"></i>
+                    <h3>Academic Transcript</h3>
+                </a>
+                <a href="files/doctorate.pdf" class="document-card">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Ph.D. Diploma</h3>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get in Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <p>Albuquerque, New Mexico</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <p>laneenriqueschultz@gmail.com</p>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <p>(806) 678-6904</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <input type="text" placeholder="Name" required>
+                        <input type="email" placeholder="Email" required>
+                        <textarea placeholder="Message" required></textarea>
+                        <button type="submit" class="btn primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>Connect with me on social media</p>
+                <div class="footer-social">
+                    <a href="https://github.com/leschultz" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lane-schultz-983920236/" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://scholar.google.com/citations?user=8WyBz08AAAAJ&hl=en&authuser=1" aria-label="Google Scholar"><i class="fas fa-graduation-cap"></i></a>
+                </div>
+                <p class="copyright">&copy; 2025 Lane Enrique Schultz. All rights reserved.</p>
+            </div>
+        </div>
     </footer>
 
-  </body>
+    <script>
+        // Mobile Menu Toggle
+        document.querySelector('.mobile-menu-btn').addEventListener('click', function() {
+            document.querySelector('nav ul').classList.toggle('show');
+        });
+
+        // Smooth Scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Add active class to nav items on scroll
+        window.addEventListener('scroll', function() {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('nav ul li a');
+
+            let current = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+
+                if (pageYOffset >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+    </script>
+</body>
 </html>
