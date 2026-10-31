@@ -47,8 +47,8 @@ def main():
         for width in (480, 800):
             resized = portrait.convert("RGB").resize((width, round(width * portrait.height / portrait.width)), Image.Resampling.LANCZOS)
             resized.save(assets / f"profile-{width}.webp", quality=84, method=6)
-    with Image.open(ROOT / "img/metallic_glass.png") as image:
-        image.save(assets / "metallic-glass.webp", lossless=True, method=6)
+    with Image.open(ROOT / "img/graph.png") as image:
+        image.save(assets / "graph.webp", lossless=True, method=6)
 
     icon = Image.new("RGB", (192, 192), "#172e36")
     draw = ImageDraw.Draw(icon)
