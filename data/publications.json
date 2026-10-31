@@ -1,0 +1,849 @@
+{
+  "schema_version": 1,
+  "source_sha256": "ccaab4212edd06272aa120684e9e1977b124c2cb0d03d666ef5c0f52066ddc21",
+  "publications": [
+    {
+      "id": "schultz_2026",
+      "category": "journal",
+      "title": "Graph neural network-based multi-objective Bayesian optimization for enhanced screening of metal–organic frameworks with optimal separation performance",
+      "authors": [
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Nickolas Gantzler",
+          "is_owner": false
+        },
+        {
+          "name": "N. Scott Bobbitt",
+          "is_owner": false
+        },
+        {
+          "name": "Dorina F. Sava Gallis",
+          "is_owner": false
+        },
+        {
+          "name": "Rémi Dingreville",
+          "is_owner": false
+        }
+      ],
+      "year": 2026,
+      "venue": "Journal of Materials Chemistry A",
+      "volume": "14",
+      "issue": "18",
+      "pages": "10836–10853",
+      "article_number": "",
+      "doi": "10.1039/D5TA09133K",
+      "url": "https://doi.org/10.1039/D5TA09133K",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "schultz_kde_2024",
+      "category": "journal",
+      "title": "A general approach for determining applicability domain of machine learning models",
+      "authors": [
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Yiqi Wang",
+          "is_owner": false
+        },
+        {
+          "name": "Ryan Jacobs",
+          "is_owner": false
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        }
+      ],
+      "year": 2025,
+      "venue": "npj Computational Materials",
+      "volume": "11",
+      "issue": "1",
+      "pages": "",
+      "article_number": "95",
+      "doi": "10.1038/s41524-025-01573-x",
+      "url": "https://doi.org/10.1038/s41524-025-01573-x",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "schultz_potentials_2024",
+      "category": "journal",
+      "title": "Machine learning metallic glass critical cooling rates through elemental and molecular simulation based featurization",
+      "authors": [
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Benjamin Afflerbach",
+          "is_owner": false
+        },
+        {
+          "name": "Paul M. Voyles",
+          "is_owner": false
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        }
+      ],
+      "year": 2025,
+      "venue": "Journal of Materiomics",
+      "volume": "11",
+      "issue": "4",
+      "pages": "",
+      "article_number": "100964",
+      "doi": "10.1016/j.jmat.2024.100964",
+      "url": "https://doi.org/10.1016/j.jmat.2024.100964",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "agrawal_2024",
+      "category": "journal",
+      "title": "Accelerating ensemble uncertainty estimates in supervised materials property regression models",
+      "authors": [
+        {
+          "name": "Vidit Agrawal",
+          "is_owner": false
+        },
+        {
+          "name": "Shixin Zhang",
+          "is_owner": false
+        },
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        }
+      ],
+      "year": 2025,
+      "venue": "Computational Materials Science",
+      "volume": "246",
+      "issue": "",
+      "pages": "",
+      "article_number": "113494",
+      "doi": "10.1016/j.commatsci.2024.113494",
+      "url": "https://doi.org/10.1016/j.commatsci.2024.113494",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "meng_2024",
+      "category": "journal",
+      "title": "Ultrafast Oxygen Conduction in Sillén Oxychlorides",
+      "authors": [
+        {
+          "name": "Jun Meng",
+          "is_owner": false
+        },
+        {
+          "name": "Md Sariful Sheikh",
+          "is_owner": false
+        },
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "William O. Nachlas",
+          "is_owner": false
+        },
+        {
+          "name": "Jian Liu",
+          "is_owner": false
+        },
+        {
+          "name": "Maciej P. Polak",
+          "is_owner": false
+        },
+        {
+          "name": "Ryan Jacobs",
+          "is_owner": false
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        }
+      ],
+      "year": 2025,
+      "venue": "Chemistry of Materials",
+      "volume": "37",
+      "issue": "9",
+      "pages": "3147–3157",
+      "article_number": "",
+      "doi": "10.1021/acs.chemmater.4c03163",
+      "url": "https://doi.org/10.1021/acs.chemmater.4c03163",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "jacobs_2024",
+      "category": "journal",
+      "title": "Machine learning materials properties with accurate predictions, uncertainty estimates, domain guidance, and persistent online accessibility",
+      "authors": [
+        {
+          "name": "Ryan Jacobs",
+          "is_owner": false
+        },
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Aristana Scourtas",
+          "is_owner": false
+        },
+        {
+          "name": "K. J. Schmidt",
+          "is_owner": false
+        },
+        {
+          "name": "Owen Price-Skelly",
+          "is_owner": false
+        },
+        {
+          "name": "Will Engler",
+          "is_owner": false
+        },
+        {
+          "name": "Ian Foster",
+          "is_owner": false
+        },
+        {
+          "name": "Ben Blaiszik",
+          "is_owner": false
+        },
+        {
+          "name": "Paul M. Voyles",
+          "is_owner": false
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        }
+      ],
+      "year": 2024,
+      "venue": "Machine Learning: Science and Technology",
+      "volume": "5",
+      "issue": "4",
+      "pages": "",
+      "article_number": "045051",
+      "doi": "10.1088/2632-2153/ad95db",
+      "url": "https://doi.org/10.1088/2632-2153/ad95db",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "schmidt_2024",
+      "category": "journal",
+      "title": "Foundry-ML – Software and Services to Simplify Access to Machine Learning Datasets in Materials Science",
+      "authors": [
+        {
+          "name": "K. J. Schmidt",
+          "is_owner": false
+        },
+        {
+          "name": "Aristana Scourtas",
+          "is_owner": false
+        },
+        {
+          "name": "Logan Ward",
+          "is_owner": false
+        },
+        {
+          "name": "Steve Wangen",
+          "is_owner": false
+        },
+        {
+          "name": "Marcus Schwarting",
+          "is_owner": false
+        },
+        {
+          "name": "Isaac Darling",
+          "is_owner": false
+        },
+        {
+          "name": "Ethan Truelove",
+          "is_owner": false
+        },
+        {
+          "name": "Aadit Ambadkar",
+          "is_owner": false
+        },
+        {
+          "name": "Ribhav Bose",
+          "is_owner": false
+        },
+        {
+          "name": "Zoa Katok",
+          "is_owner": false
+        },
+        {
+          "name": "Jingrui Wei",
+          "is_owner": false
+        },
+        {
+          "name": "Xiangguo Li",
+          "is_owner": false
+        },
+        {
+          "name": "Ryan Jacobs",
+          "is_owner": false
+        },
+        {
+          "name": "Lane Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Doyeon Kim",
+          "is_owner": false
+        },
+        {
+          "name": "Michael Ferris",
+          "is_owner": false
+        },
+        {
+          "name": "Paul M. Voyles",
+          "is_owner": false
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        },
+        {
+          "name": "Ian Foster",
+          "is_owner": false
+        },
+        {
+          "name": "Ben Blaiszik",
+          "is_owner": false
+        }
+      ],
+      "year": 2024,
+      "venue": "Journal of Open Source Software",
+      "volume": "9",
+      "issue": "93",
+      "pages": "",
+      "article_number": "5467",
+      "doi": "10.21105/joss.05467",
+      "url": "https://doi.org/10.21105/joss.05467",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "schultz_2022",
+      "category": "journal",
+      "title": "Molecular dynamic characteristic temperatures for predicting metallic glass forming ability",
+      "authors": [
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Benjamin Afflerbach",
+          "is_owner": false
+        },
+        {
+          "name": "Izabela Szlufarska",
+          "is_owner": false
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        }
+      ],
+      "year": 2022,
+      "venue": "Computational Materials Science",
+      "volume": "201",
+      "issue": "",
+      "pages": "",
+      "article_number": "110877",
+      "doi": "10.1016/j.commatsci.2021.110877",
+      "url": "https://doi.org/10.1016/j.commatsci.2021.110877",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "afflerbach_2022",
+      "category": "journal",
+      "title": "Machine Learning Prediction of the Critical Cooling Rate for Metallic Glasses from Expanded Datasets and Elemental Features",
+      "authors": [
+        {
+          "name": "Benjamin T. Afflerbach",
+          "is_owner": false
+        },
+        {
+          "name": "Carter Francis",
+          "is_owner": false
+        },
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Janine Spethson",
+          "is_owner": false
+        },
+        {
+          "name": "Vanessa Meschke",
+          "is_owner": false
+        },
+        {
+          "name": "Elliot Strand",
+          "is_owner": false
+        },
+        {
+          "name": "Logan Ward",
+          "is_owner": false
+        },
+        {
+          "name": "John H. Perepezko",
+          "is_owner": false
+        },
+        {
+          "name": "Dan Thoma",
+          "is_owner": false
+        },
+        {
+          "name": "Paul M. Voyles",
+          "is_owner": false
+        },
+        {
+          "name": "Izabela Szlufarska",
+          "is_owner": false
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        }
+      ],
+      "year": 2022,
+      "venue": "Chemistry of Materials",
+      "volume": "34",
+      "issue": "7",
+      "pages": "2945–2954",
+      "article_number": "",
+      "doi": "10.1021/acs.chemmater.1c03542",
+      "url": "https://doi.org/10.1021/acs.chemmater.1c03542",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "schultz_2021",
+      "category": "journal",
+      "title": "Exploration of characteristic temperature contributions to metallic glass forming ability",
+      "authors": [
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Benjamin Afflerbach",
+          "is_owner": false
+        },
+        {
+          "name": "Carter Francis",
+          "is_owner": false
+        },
+        {
+          "name": "Paul M. Voyles",
+          "is_owner": false
+        },
+        {
+          "name": "Izabela Szlufarska",
+          "is_owner": false
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        }
+      ],
+      "year": 2021,
+      "venue": "Computational Materials Science",
+      "volume": "196",
+      "issue": "",
+      "pages": "",
+      "article_number": "110494",
+      "doi": "10.1016/j.commatsci.2021.110494",
+      "url": "https://doi.org/10.1016/j.commatsci.2021.110494",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "afflerbach_2021",
+      "category": "journal",
+      "title": "Molecular simulation-derived features for machine learning predictions of metal glass forming ability",
+      "authors": [
+        {
+          "name": "Benjamin T. Afflerbach",
+          "is_owner": false
+        },
+        {
+          "name": "Lane Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "John H. Perepezko",
+          "is_owner": false
+        },
+        {
+          "name": "Paul M. Voyles",
+          "is_owner": false
+        },
+        {
+          "name": "Izabela Szlufarska",
+          "is_owner": false
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        }
+      ],
+      "year": 2021,
+      "venue": "Computational Materials Science",
+      "volume": "199",
+      "issue": "",
+      "pages": "",
+      "article_number": "110728",
+      "doi": "10.1016/j.commatsci.2021.110728",
+      "url": "https://doi.org/10.1016/j.commatsci.2021.110728",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "janqi_2020",
+      "category": "journal",
+      "title": "Microalloying effect in ternary Al-Sm-X (X=Ag, Au, Cu) metallic glasses studied by ab initio molecular dynamics",
+      "authors": [
+        {
+          "name": "J. Xi",
+          "is_owner": false
+        },
+        {
+          "name": "G. Bokas",
+          "is_owner": false
+        },
+        {
+          "name": "L. E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "M. Gao",
+          "is_owner": false
+        },
+        {
+          "name": "L. Zhao",
+          "is_owner": false
+        },
+        {
+          "name": "Y. Shen",
+          "is_owner": false
+        },
+        {
+          "name": "J. H. Perepezko",
+          "is_owner": false
+        },
+        {
+          "name": "D. Morgan",
+          "is_owner": false
+        },
+        {
+          "name": "I. Szlufarska",
+          "is_owner": false
+        }
+      ],
+      "year": 2020,
+      "venue": "Computational Materials Science",
+      "volume": "185",
+      "issue": "",
+      "pages": "",
+      "article_number": "109958",
+      "doi": "10.1016/j.commatsci.2020.109958",
+      "url": "https://doi.org/10.1016/j.commatsci.2020.109958",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "halls_2018",
+      "category": "journal",
+      "title": "Quantitative 10–50 kHz X-ray radiography of liquid spray distributions using a rotating-anode tube source",
+      "authors": [
+        {
+          "name": "B. R. Halls",
+          "is_owner": false
+        },
+        {
+          "name": "J. R. Gord",
+          "is_owner": false
+        },
+        {
+          "name": "L. E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "W. C. Slowman",
+          "is_owner": false
+        },
+        {
+          "name": "M. D. A. Lightfoot",
+          "is_owner": false
+        },
+        {
+          "name": "S. Roy",
+          "is_owner": false
+        },
+        {
+          "name": "T. R. Meyer",
+          "is_owner": false
+        }
+      ],
+      "year": 2018,
+      "venue": "International Journal of Multiphase Flow",
+      "volume": "109",
+      "issue": "",
+      "pages": "123–130",
+      "article_number": "",
+      "doi": "10.1016/j.ijmultiphaseflow.2018.07.014",
+      "url": "https://doi.org/10.1016/j.ijmultiphaseflow.2018.07.014",
+      "status": "Published",
+      "note": ""
+    },
+    {
+      "id": "schultz_llzo_2026",
+      "category": "manuscript",
+      "title": "Accelerating LLZO–Polymer Composite Electrolyte Microstructure Screening Through Multi-Objective Bayesian Optimization",
+      "authors": [
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Scott Q. Monismith",
+          "is_owner": false
+        },
+        {
+          "name": "Noah M. Francis",
+          "is_owner": false
+        },
+        {
+          "name": "Josey D. McBrayer",
+          "is_owner": false
+        },
+        {
+          "name": "Rémi Dingreville",
+          "is_owner": false
+        }
+      ],
+      "year": 2026,
+      "venue": "",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "article_number": "",
+      "doi": "",
+      "url": "",
+      "status": "In preparation",
+      "note": "In preparation"
+    },
+    {
+      "id": "schultz_sputtering_2026",
+      "category": "manuscript",
+      "title": "Atomistically Resolved Surface Binding Energies for Mo–S Systems: Implications for Sputter Yield and Film Deposition Modeling",
+      "authors": [
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Alex J. Mings",
+          "is_owner": false
+        },
+        {
+          "name": "Melissa L. Meyerson",
+          "is_owner": false
+        },
+        {
+          "name": "Nathan Jackson",
+          "is_owner": false
+        },
+        {
+          "name": "David P. Adams",
+          "is_owner": false
+        },
+        {
+          "name": "Rémi Dingreville",
+          "is_owner": false
+        }
+      ],
+      "year": 2026,
+      "venue": "",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "article_number": "",
+      "doi": "",
+      "url": "",
+      "status": "Under review",
+      "note": "Under review"
+    },
+    {
+      "id": "jacobs2026kolmogorovarnoldnetworksappliedmaterials",
+      "category": "preprint",
+      "title": "Kolmogorov-Arnold Networks Applied to Materials Property Prediction",
+      "authors": [
+        {
+          "name": "Ryan Jacobs",
+          "is_owner": false
+        },
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        }
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "article_number": "",
+      "doi": "10.48550/arXiv.2601.20097",
+      "url": "https://doi.org/10.48550/arXiv.2601.20097",
+      "status": "Preprint",
+      "note": "Preprint"
+    },
+    {
+      "id": "jacobs2024regressionlargelanguagemodels",
+      "category": "preprint",
+      "title": "Regression with Large Language Models for Materials and Molecular Property Prediction",
+      "authors": [
+        {
+          "name": "Ryan Jacobs",
+          "is_owner": false
+        },
+        {
+          "name": "Maciej P. Polak",
+          "is_owner": false
+        },
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Hamed Mahdavi",
+          "is_owner": false
+        },
+        {
+          "name": "Vasant Honavar",
+          "is_owner": false
+        },
+        {
+          "name": "Dane Morgan",
+          "is_owner": false
+        }
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "article_number": "",
+      "doi": "10.48550/arXiv.2409.06080",
+      "url": "https://doi.org/10.48550/arXiv.2409.06080",
+      "status": "Preprint",
+      "note": "Preprint; revised April 2026"
+    },
+    {
+      "id": "schultz_2018",
+      "category": "conference",
+      "title": "Design of Torsional Test Stand for Micro-Newton Force Detection",
+      "authors": [
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Thomas J. Cogger",
+          "is_owner": false
+        },
+        {
+          "name": "Ryan Good",
+          "is_owner": false
+        },
+        {
+          "name": "James Schneider",
+          "is_owner": false
+        },
+        {
+          "name": "Robert Rothschild",
+          "is_owner": false
+        },
+        {
+          "name": "William Nollet",
+          "is_owner": false
+        }
+      ],
+      "year": 2018,
+      "venue": "2018 Aerodynamic Measurement Technology and Ground Testing Conference",
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "article_number": "",
+      "doi": "10.2514/6.2018-3737",
+      "url": "https://doi.org/10.2514/6.2018-3737",
+      "status": "Conference paper",
+      "note": ""
+    },
+    {
+      "id": "schneider_2016",
+      "category": "conference",
+      "title": "Development of a portable water quality sensor for river monitoring from small rafts",
+      "authors": [
+        {
+          "name": "James Schneider",
+          "is_owner": false
+        },
+        {
+          "name": "Lane E. Schultz",
+          "is_owner": true
+        },
+        {
+          "name": "Sophie Mancha",
+          "is_owner": false
+        },
+        {
+          "name": "Eric Hicks",
+          "is_owner": false
+        },
+        {
+          "name": "Ryan N. Smith",
+          "is_owner": false
+        }
+      ],
+      "year": 2016,
+      "venue": "OCEANS 2016 MTS/IEEE Monterey",
+      "volume": "",
+      "issue": "",
+      "pages": "1–10",
+      "article_number": "",
+      "doi": "10.1109/OCEANS.2016.7761392",
+      "url": "https://doi.org/10.1109/OCEANS.2016.7761392",
+      "status": "Conference paper",
+      "note": ""
+    }
+  ]
+}

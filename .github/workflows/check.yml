@@ -1,0 +1,36 @@
+name: Check research website
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  website:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Check static pages and publication snapshot
+        run: |
+          python3 scripts/check_site.py
+          python3 -m unittest discover -s tests -v
+      - name: Install browser tooling
+        run: |
+          python -m pip install -r requirements-dev.txt
+          python -m playwright install --with-deps chromium
+      - name: Check interactions, responsiveness, and accessibility
+        run: python3 scripts/browser_checks.py --screenshots .checks
+      - name: Upload visual-review artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: website-review
+          include-hidden-files: true
+          path: .checks/

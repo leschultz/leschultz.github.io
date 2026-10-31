@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="450" viewBox="0 0 520 450" fill="none">
+  <defs>
+    <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" stroke="#cfdbd1" stroke-width=".6"/></pattern>
+    <radialGradient id="atom"><stop stop-color="#559283"/><stop offset="1" stop-color="#17666a"/></radialGradient>
+    <radialGradient id="light"><stop stop-color="#ecf4e9"/><stop offset="1" stop-color="#8db4a3"/></radialGradient>
+    <radialGradient id="gold"><stop stop-color="#d5b47b"/><stop offset="1" stop-color="#a07643"/></radialGradient>
+  </defs>
+  <path fill="url(#grid)" d="M0 0h520v450H0z"/>
+  <g stroke="#b8cbbf" stroke-width="1">
+    <circle cx="249" cy="205" r="161"/>
+    <circle cx="249" cy="205" r="118" stroke-dasharray="3 6"/>
+    <path d="M249 28v354M72 205h354" stroke-dasharray="2 7"/>
+  </g>
+  <g fill="#d5e4d8" fill-opacity=".65" stroke="#729b8b" stroke-width="1.2">
+    <path d="m249 57 130 75v150l-130 75-130-75V132z"/>
+    <path d="m119 132 130 75 130-75M249 207v150"/>
+    <path d="m249 57 0 150M119 282l130-75 130 75" stroke-dasharray="5 5"/>
+  </g>
+  <g stroke="#4d8476" stroke-width="1.8">
+    <path d="m184 95 0 150 130 75M119 207l130-75 130 75-130 75-130-75 130-75M184 170l130-75v150l-130 75V170l130 75M184 245l130-75-130-75M249 57l65 113 65-38M119 132l65 113 65 112 65-112 65-113M119 282l65-112 65-113M249 357l-65-37M314 320l65-38"/>
+    <path d="m249 132 0 150M184 170l65 112 65-112M184 245l65-113 65 113"/>
+  </g>
+  <g fill="url(#light)" stroke="#729b8b" stroke-width="1">
+    <circle cx="249" cy="57" r="11"/><circle cx="184" cy="95" r="9"/><circle cx="314" cy="95" r="9"/>
+    <circle cx="119" cy="132" r="11"/><circle cx="379" cy="132" r="11"/>
+    <circle cx="119" cy="207" r="9"/><circle cx="379" cy="207" r="9"/>
+    <circle cx="119" cy="282" r="11"/><circle cx="379" cy="282" r="11"/>
+    <circle cx="184" cy="320" r="9"/><circle cx="314" cy="320" r="9"/><circle cx="249" cy="357" r="11"/>
+  </g>
+  <g fill="url(#atom)" stroke="#105459" stroke-width="1">
+    <circle cx="249" cy="132" r="15"/><circle cx="184" cy="170" r="15"/><circle cx="314" cy="170" r="15"/>
+    <circle cx="184" cy="245" r="15"/><circle cx="314" cy="245" r="15"/><circle cx="249" cy="282" r="15"/>
+  </g>
+  <circle cx="249" cy="207" r="21" fill="url(#gold)" stroke="#967044"/>
+  <circle cx="249" cy="207" r="32" stroke="#a9804e" stroke-dasharray="3 4"/>
+  <g stroke="#17666a" stroke-width="1">
+    <path d="M268 180l89-89h64M324 249l75 50h61M181 170l-64-67H44"/>
+    <circle cx="421" cy="91" r="2.5" fill="#17666a"/>
+    <circle cx="460" cy="299" r="2.5" fill="#17666a"/>
+  </g>
+  <g fill="#17666a" font-family="monospace" font-size="9" letter-spacing=".5">
+    <text x="359" y="80">ENVIRONMENT</text><text x="397" y="318">INTERACTION</text><text x="26" y="93">STRUCTURE</text>
+  </g>
+  <path d="M42 410h435" stroke="#9bb6a7"/>
+  <g fill="#17666a" font-family="monospace" font-size="9" letter-spacing="1">
+    <text x="42" y="434">DESCRIBE</text><text x="221" y="434">PREDICT</text><text x="423" y="434">EXPLORE</text>
+  </g>
+  <g fill="#17666a"><circle cx="42" cy="410" r="3"/><circle cx="249" cy="410" r="3"/><circle cx="477" cy="410" r="3"/></g>
+</svg>

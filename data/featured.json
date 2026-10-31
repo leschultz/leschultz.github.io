@@ -1,0 +1,14 @@
+[
+  {
+    "id": "schultz_2026",
+    "summary": "Graph neural networks and multi-objective Bayesian optimization for screening metal–organic frameworks with favorable separation performance."
+  },
+  {
+    "id": "schultz_kde_2024",
+    "summary": "A kernel-density-estimation approach to understanding where a machine learning model's predictions and uncertainty estimates are reliable."
+  },
+  {
+    "id": "schultz_potentials_2024",
+    "summary": "Connecting elemental descriptors and molecular-simulation features to the prediction of metallic glass critical cooling rates."
+  }
+]
