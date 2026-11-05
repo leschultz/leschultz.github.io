@@ -142,12 +142,18 @@ figcaption { color: var(--muted); font: 0.65rem/1.6 var(--mono); }
 .education-list .timeline-date { margin-top: 3px; }
 .education-list .detail { font-size: 0.75rem; }
 .community-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 100px; border-top: 1px solid #c7d4cb; margin-top: 64px; padding-top: 40px; }
-.community-grid h3 { font-family: var(--serif); font-size: 1.8rem; font-weight: 400; margin-top: 12px; }
+.community-grid h3, .personal-section > h3 { font-family: var(--serif); font-size: 1.8rem; font-weight: 400; margin-top: 12px; }
 .plain-list { list-style: none; padding: 0; margin: 23px 0 0; }
 .plain-list li + li { margin-top: 23px; }
 .plain-list strong { font-size: 0.84rem; font-weight: 600; }
 .plain-list p { font-size: 0.81rem; color: var(--muted); margin-top: 5px; }
 .plain-list .detail { font-size: 0.75rem; }
+
+.personal-section { border-top: 1px solid #c7d4cb; margin-top: 64px; padding-top: 40px; }
+.personal-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 48px; margin-top: 27px; }
+.personal-grid p { font-size: 0.87rem; color: var(--muted); margin-top: 10px; }
+.personal-grid strong { color: var(--ink); font-weight: 600; }
+.personal-grid .text-link { margin-top: 12px; }
 
 .contact-section { background: var(--ink); color: var(--paper); }
 .contact-section .eyebrow { color: #afc7bd; margin-bottom: 19px; }
@@ -236,6 +242,7 @@ figcaption { color: var(--muted); font: 0.65rem/1.6 var(--mono); }
   .foundations { gap: 25px; padding: 30px; grid-template-columns: 1.5fr 0.8fr; }
   .background-grid { grid-template-columns: 0.9fr 1.2fr; gap: 38px; }
   .community-grid { gap: 40px; }
+  .personal-grid { gap: 28px; }
   .contact-grid { grid-template-columns: 1fr 0.4fr; gap: 35px; }
   .footer-inner > p:nth-child(2) { display: none; }
 }
@@ -285,7 +292,9 @@ figcaption { color: var(--muted); font: 0.65rem/1.6 var(--mono); }
   .background-grid, .community-grid { grid-template-columns: 1fr; gap: 42px; }
   .profile img { aspect-ratio: 1.35; max-height: 380px; object-position: 50% 35%; }
   .profile > p { font-size: 0.9rem; }
-  .community-grid { margin-top: 40px; padding-top: 35px; }
+  .community-grid, .personal-section { margin-top: 40px; padding-top: 35px; }
+  .personal-grid { grid-template-columns: 1fr; }
+  .personal-grid p { font-size: 0.9rem; }
   .contact-grid { grid-template-columns: 1fr; gap: 40px; }
   .contact-links { max-width: 400px; }
   .contact-email { font-size: clamp(1.08rem, 4.4vw, 1.7rem); }
@@ -331,8 +340,8 @@ figcaption { color: var(--muted); font: 0.65rem/1.6 var(--mono); }
   .research-project h3 { font-size: 15pt; }
   .contact-section { background: white; color: black; }
   .contact-section a, .contact-section .eyebrow, .contact-section .work-contact, .contact-section h2 + p { color: #174c4f; }
-  .hero-context, .community-grid, .foundations { margin-top: 25px; }
-  .publication-entry, .selected-publication, .timeline li, .education-list li { break-inside: avoid; }
+  .hero-context, .community-grid, .personal-section, .foundations { margin-top: 25px; }
+  .publication-entry, .selected-publication, .timeline li, .education-list li, .personal-grid > div { break-inside: avoid; }
   .archive-section + .archive-section { margin-top: 25px; }
   .profile img { max-height: 200px; }
   .button { background: white; color: black; border-color: black; }
