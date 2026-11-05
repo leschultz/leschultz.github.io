@@ -154,6 +154,8 @@ figcaption { color: var(--muted); font: 0.65rem/1.6 var(--mono); }
 .personal-grid p { font-size: 0.87rem; color: var(--muted); margin-top: 10px; }
 .personal-grid strong { color: var(--ink); font-weight: 600; }
 .personal-grid .text-link { margin-top: 12px; }
+.personal-fun-fact { border-top: 1px solid #c7d4cb; color: var(--muted); font-size: 0.87rem; margin-top: 32px; padding-top: 22px; max-width: 90ch; }
+.personal-fun-fact strong { color: var(--ink); font-weight: 600; }
 
 .contact-section { background: var(--ink); color: var(--paper); }
 .contact-section .eyebrow { color: #afc7bd; margin-bottom: 19px; }
